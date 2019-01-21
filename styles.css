@@ -1,0 +1,119 @@
+@font-face{
+    font-family: fof;
+    src: url(feast-of-flesh-bb.regular.tff);
+}
+
+@font-face {
+    font-family:fof2;
+    src: url(feast-of-flesh-bb.regular.otf);
+}
+
+html,body {
+    font-family: fof, fof2, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    color: #303137;
+    margin: 0;
+    background-color: #881EE4;
+}
+
+.navbar-brand{
+    color:black;
+}
+
+.navbar-brand:hover {
+    color:#881EE4;
+}
+
+li.nav-item a.nav-link{
+    color: black;
+}
+
+.navbar {
+     background-color:#F75F15;
+}
+.navbar-collapse {
+  margin-left: 70%;
+}
+a.dropdown-item {
+    
+    background-color:black;
+}
+
+.nav-item .dropdown a{
+    color:black;
+}
+
+.introSection {
+        background-color:#881EE4;
+         padding: 4rem 1rem;
+
+}
+
+.intro {
+    color:white;
+}
+
+.intro, .displayProducts, popularBrands {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+ .products{
+     background-color: #F75F15;
+     padding: 4rem 1rem;
+}
+
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-object {
+    max-width: 250px;
+    margin: 1rem 0;
+}
+
+.portfolio-box {
+    width: 250px;
+    height: 250px;
+    background-color: #F1F3Fa;
+    transition: .2s ease-in-out;
+}
+
+.portfolio-box:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.section-header {
+    text-align: center;
+    padding: 6rem 0 4rem;
+}
+
+.buttonwrapper,.socialwrapper {
+    margin-top: 20px;
+}
+
+.columnFormat {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #F75F15;
+}
+
+.socialwrapper {
+    padding-bottom:10%;
+}
+
+.sunsetImg {
+    background-image: url(hh.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
